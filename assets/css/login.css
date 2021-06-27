@@ -1,0 +1,59 @@
+﻿/* các xử lí định dạng login.html*/
+
+.loginview{
+	height:auto;
+	background:#eee;
+	
+	box-shadow:5px 5px 10px #555;
+	
+	border-radius:10px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.loginview .title{
+	background:#555;
+	color:#fff;
+	text-transform:uppercase;
+	padding: 10px;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.loginView label{
+		text-align:left !important;
+		font-weight:700;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.loginView label{
+		text-align:left !important;
+		font-weight:700;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.loginView label{
+		text-align:left !important;
+		font-weight:700;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.loginView label{
+		text-align:left !important;
+		font-weight:700;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.loginView label{
+		text-align:left !important;
+		font-weight:700;
+	}
+}
